@@ -1,7 +1,9 @@
 /*general*/
 html {overflow:hidden;}
 /*sliders*/
-
+input[type=range].sim-slider {
+      background-color: rgba(0,0,0,0);
+}
 input[type=range].sim-slider {
   height: 42px;
   -webkit-appearance: none;
