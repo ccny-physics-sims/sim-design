@@ -14,6 +14,15 @@ body {
 
   /* This centers our sketch vertically. */
   align-items: center;
+  /* background-color: #eee; */
+  background: radial-gradient(#fff, #eee, #ddd);
+}
+
+#sketch-holder {
+  border: 2px solid #aaa;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fff;
 }
 
 /*sliders*/
