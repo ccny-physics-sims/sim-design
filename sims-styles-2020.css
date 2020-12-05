@@ -8,7 +8,7 @@ html, body {
 body {
   margin: 0;
   display: flex;
-
+  user-select:none;
   /* This centers our sketch horizontally. */
   justify-content: center;
 
@@ -228,7 +228,7 @@ transform: rotate(270deg);
 .sim-button {
   /* width:100px; */
   padding: .5em 1em;
-  font-size: 21px;
+  font-size: 1em;
   font-family:Helvetica, sans-serif;
   /* font-weight:bold; */
   cursor: pointer;
@@ -277,11 +277,11 @@ transform: rotate(270deg);
   padding: 4px 8px;
   font-size: 12px;
   border-radius: 8px;
-  box-shadow: 0 5px #999;
+
 }
 .sim-button.slim:active {
   background-color: #80a7b5;
-  box-shadow: 0 2px #666;
+
   transform: translateY(2px);
 }
 
@@ -425,7 +425,7 @@ background-color: #747474;
 
 h3.simTitle {
   position: fixed;
-  top: 10px;
+  top: 5px;
   font-family: Helvetica;
   color: #555;
 }
