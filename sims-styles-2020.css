@@ -11,18 +11,21 @@ body {
   user-select:none;
   /* This centers our sketch horizontally. */
   justify-content: center;
-
+  font-family: Helvetica;
   /* This centers our sketch vertically. */
-  align-items: center;
-  /* background-color: #eee; */
-  background: radial-gradient(#fff, #eee, #aaa);
+  /* align-items: center; */
+   /* background-color: #eee; */
+   /* background: radial-gradient(#fff, #eee, #aaa); */
 }
 
  #sketch-holder {
-  border: 2px solid #aaa;
-  border-radius: 10px;
-  padding: 20px;
+   border-top: 1px solid #aaa;
+  /* border-radius: 10px; */
+  /* padding: 20px; */
   background-color: #fff;
+  position: absolute;
+  bottom: 0px;
+
 }
 /*Custom Base*/
 
@@ -425,21 +428,22 @@ background-color: #747474;
 
 h3.simTitle {
   position: fixed;
-  top: 5px;
+  /* top: 5px; */
   font-family: Helvetica;
   color: #555;
+  font-size: 1em;
 }
 img.logo {
   position: fixed;
-  top: 10px;
-  left: 40px;
-  width: 50px;
+  top: 8px;
+  left: 20px;
+  width: 40px;
 
 }
 img.helpButton {
   position: fixed;
-  top: 12px;
-  right: 40px;
-  width: 50px;
+  top: 8px;
+  right: 20px;
+  width: 40px;
 
 }
